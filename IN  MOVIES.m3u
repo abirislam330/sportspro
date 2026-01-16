@@ -1,0 +1,137 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="IN | &PICTURES 4K" tvg-logo="https://www.lyngsat.com/logo/tv/aa/and_pictures_in.png",IN | &PICTURES 4K
+http://rolexott.pro:80/live/56564322/56564323/27142.ts
+#EXTINF:-1 tvg-id="IN | D2H &FLIX 4K" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSER00FnJAi_l3_yLNVUkjzNeeFhm0lZp-0tQ&s",IN | D2H &FLIX 4K
+http://rolexott.pro:80/live/56564322/56564323/27164.ts
+#EXTINF:-1 tvg-id="IN | D2H &PRIVE 4K" tvg-logo="https://www.lyngsat.com/logo/tv/aa/and-prive-hd-in.png",IN | D2H &PRIVE 4K
+http://rolexott.pro:80/live/56564322/56564323/27167.ts
+#EXTINF:-1 tvg-id="IN | D2H MN+ FHD" tvg-logo="https://i.imgur.com/asPDFeu.png",IN | D2H MN+ FHD
+http://rolexott.pro:80/live/56564322/56564323/27170.ts
+#EXTINF:-1 tvg-id="IN | D2H SONY MAX 2 4K" tvg-logo="https://i.imgur.com/gqUYk6C.png",IN | D2H SONY MAX 2 4K
+http://rolexott.pro:80/live/56564322/56564323/27145.ts
+#EXTINF:-1 tvg-id="IN | D2H SONY MAX 4K" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-max-in.png",IN | D2H SONY MAX 4K
+http://rolexott.pro:80/live/56564322/56564323/27130.ts
+#EXTINF:-1 tvg-id="IN | D2H SONY PIX 4K" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png",IN | D2H SONY PIX 4K
+http://rolexott.pro:80/live/56564322/56564323/27160.ts
+#EXTINF:-1 tvg-id="IN | D2H STAR GOLD 4K" tvg-logo="https://www.lyngsat.com/logo/tv/ss/star-gold-in.png",IN | D2H STAR GOLD 4K
+http://rolexott.pro:80/live/56564322/56564323/27133.ts
+#EXTINF:-1 tvg-id="IN | D2H STAR GOLD SELECT 4K" tvg-logo="https://i.imgur.com/U7eiuqv.png",IN | D2H STAR GOLD SELECT 4K
+http://rolexott.pro:80/live/56564322/56564323/27136.ts
+#EXTINF:-1 tvg-id="IN | D2H STAR MOVIES 4K" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/STAR_Movies_logo.svg/512px-STAR_Movies_logo.svg.png",IN | D2H STAR MOVIES 4K
+http://rolexott.pro:80/live/56564322/56564323/27154.ts
+#EXTINF:-1 tvg-id="IN | D2H ZEE BOLLYWOOD 4K" tvg-logo="https://i.imgur.com/0qQrV84.png",IN | D2H ZEE BOLLYWOOD 4K
+http://rolexott.pro:80/live/56564322/56564323/27151.ts
+#EXTINF:-1 tvg-id="IN | D2H ZEE CINEMA 4K" tvg-logo="https://i.imgur.com/uYjCv5p.png",IN | D2H ZEE CINEMA 4K
+http://rolexott.pro:80/live/56564322/56564323/27139.ts
+#EXTINF:-1 tvg-id="IN | FD Dangal 2" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dangal-2-in.png",IN | FD Dangal 2
+http://rolexott.pro:80/live/56564322/56564323/112716.ts
+#EXTINF:-1 tvg-id="IN | SONY MAX SD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-max-in.png",IN | SONY MAX SD
+http://rolexott.pro:80/live/56564322/56564323/27132.ts
+#EXTINF:-1 tvg-id="IN | STAR GOLD SD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/star-gold-in.png",IN | STAR GOLD SD
+http://rolexott.pro:80/live/56564322/56564323/27135.ts
+#EXTINF:-1 tvg-id="IN | STAR GOLD SELECT SD" tvg-logo="https://i.imgur.com/U7eiuqv.png",IN | STAR GOLD SELECT SD
+http://rolexott.pro:80/live/56564322/56564323/27138.ts
+#EXTINF:-1 tvg-id="IN | TS &FLIX FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSER00FnJAi_l3_yLNVUkjzNeeFhm0lZp-0tQ&s",IN | TS &FLIX FHD
+http://rolexott.pro:80/live/56564322/56564323/27165.ts
+#EXTINF:-1 tvg-id="IN | TS &PICTURES FHD" tvg-logo="https://www.lyngsat.com/logo/tv/aa/and_pictures_in.png",IN | TS &PICTURES FHD
+http://rolexott.pro:80/live/56564322/56564323/27143.ts
+#EXTINF:-1 tvg-id="IN | TS &PRIVE FHD" tvg-logo="https://www.lyngsat.com/logo/tv/aa/and-prive-hd-in.png",IN | TS &PRIVE FHD
+http://rolexott.pro:80/live/56564322/56564323/27168.ts
+#EXTINF:-1 tvg-id="IN | TS &XPLOR FHD" tvg-logo="https://www.lyngsat.com/logo/tv/aa/and-xplor-in.png",IN | TS &XPLOR FHD
+http://rolexott.pro:80/live/56564322/56564323/111809.ts
+#EXTINF:-1 tvg-id="IN | TS COLORS CINEPLEX FHD" tvg-logo="https://www.lyngsat.com/logo/tv/cc/colors-cineplex-in.png",IN | TS COLORS CINEPLEX FHD
+http://rolexott.pro:80/live/56564322/56564323/111406.ts
+#EXTINF:-1 tvg-id="IN | TS MN+ FHD" tvg-logo="https://i.imgur.com/asPDFeu.png",IN | TS MN+ FHD
+http://rolexott.pro:80/live/56564322/56564323/27171.ts
+#EXTINF:-1 tvg-id="IN | TS SONY MAX 2 FHD" tvg-logo="https://i.imgur.com/gqUYk6C.png",IN | TS SONY MAX 2 FHD
+http://rolexott.pro:80/live/56564322/56564323/27146.ts
+#EXTINF:-1 tvg-id="IN | TS SONY MAX FHD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-max-in.png",IN | TS SONY MAX FHD
+http://rolexott.pro:80/live/56564322/56564323/27131.ts
+#EXTINF:-1 tvg-id="IN | TS SONY PIX FHD" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png",IN | TS SONY PIX FHD
+http://rolexott.pro:80/live/56564322/56564323/27161.ts
+#EXTINF:-1 tvg-id="IN | TS STAR GOLD 2 4K" tvg-logo="https://i.imgur.com/G0ZfzZr.png",IN | TS STAR GOLD 2 4K
+http://rolexott.pro:80/live/56564322/56564323/27148.ts
+#EXTINF:-1 tvg-id="IN | TS STAR GOLD 2 FHD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/star-gold-2-hk-in.png",IN | TS STAR GOLD 2 FHD
+http://rolexott.pro:80/live/56564322/56564323/27149.ts
+#EXTINF:-1 tvg-id="IN | TS STAR GOLD FHD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/star-gold-in.png",IN | TS STAR GOLD FHD
+http://rolexott.pro:80/live/56564322/56564323/27134.ts
+#EXTINF:-1 tvg-id="IN | TS STAR GOLD ROMANCE" tvg-logo="https://i.imgur.com/gSWv9U3.png",IN | TS STAR GOLD ROMANCE
+http://rolexott.pro:80/live/56564322/56564323/27173.ts
+#EXTINF:-1 tvg-id="IN | TS STAR GOLD SELECT FHD" tvg-logo="https://i.imgur.com/U7eiuqv.png",IN | TS STAR GOLD SELECT FHD
+http://rolexott.pro:80/live/56564322/56564323/27137.ts
+#EXTINF:-1 tvg-id="IN | TS STAR MOVIES FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/STAR_Movies_logo.svg/512px-STAR_Movies_logo.svg.png",IN | TS STAR MOVIES FHD
+http://rolexott.pro:80/live/56564322/56564323/27155.ts
+#EXTINF:-1 tvg-id="IN | TS STAR MOVIES SELECT FHD" tvg-logo="https://i.imgur.com/bnzDNCF.png",IN | TS STAR MOVIES SELECT FHD
+http://rolexott.pro:80/live/56564322/56564323/27158.ts
+#EXTINF:-1 tvg-id="IN | TS ZEE BOLLYWOOD FHD" tvg-logo="https://i.imgur.com/0qQrV84.png",IN | TS ZEE BOLLYWOOD FHD
+http://rolexott.pro:80/live/56564322/56564323/27152.ts
+#EXTINF:-1 tvg-id="IN | TS ZEE CINEMA FHD" tvg-logo="https://i.imgur.com/uYjCv5p.png",IN | TS ZEE CINEMA FHD
+http://rolexott.pro:80/live/56564322/56564323/27140.ts
+#EXTINF:-1 tvg-id="IN | TS ZEE CLASSIC HD" tvg-logo="https://www.lyngsat.com/logo/tv/zz/zee-classic-in.png",IN | TS ZEE CLASSIC HD
+http://rolexott.pro:80/live/56564322/56564323/33747.ts
+#EXTINF:-1 tvg-id="MN+ SD" tvg-logo="https://i.imgur.com/asPDFeu.png",MN+ SD
+http://rolexott.pro:80/live/56564322/56564323/27172.ts
+#EXTINF:-1 tvg-id="MNX HD" tvg-logo="https://i.imgur.com/Fo7n4xX.png",MNX HD
+http://rolexott.pro:80/live/56564322/56564323/209337.ts
+#EXTINF:-1 tvg-id="Shemaroo Bollywood" tvg-logo="https://a.jsrdn.com/hls/23141/shemaroo-bollywood/logo_20240206_185308_68.png",Shemaroo Bollywood
+http://rolexott.pro:80/live/56564322/56564323/202239.ts
+#EXTINF:-1 tvg-id="SHEMAROO TV" tvg-logo="https://www.lyngsat.com/logo/tv/ss/shemaroo-tv-in.png",SHEMAROO TV
+http://rolexott.pro:80/live/56564322/56564323/33757.ts
+#EXTINF:-1 tvg-id="Shemaroo Umang Plus" tvg-logo="https://a.jsrdn.com/hls/23141/shemaroo-umang-plus/logo_20240206_191005_68.png",Shemaroo Umang Plus
+http://rolexott.pro:80/live/56564322/56564323/202241.ts
+#EXTINF:-1 tvg-id="SONY MAX 2 SD" tvg-logo="https://i.imgur.com/gqUYk6C.png",SONY MAX 2 SD
+http://rolexott.pro:80/live/56564322/56564323/27147.ts
+#EXTINF:-1 tvg-id="SONY PIX (HINDI) 4K" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png",SONY PIX (HINDI) 4K
+http://rolexott.pro:80/live/56564322/56564323/27163.ts
+#EXTINF:-1 tvg-id="SONY PIX SD" tvg-logo="https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png",SONY PIX SD
+http://rolexott.pro:80/live/56564322/56564323/27162.ts
+#EXTINF:-1 tvg-id="SONY WAH FHD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-wah-in.png",SONY WAH FHD
+http://rolexott.pro:80/live/56564322/56564323/27175.ts
+#EXTINF:-1 tvg-id="STAR GOLD 2 SD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/star-gold-2-hk-in.png",STAR GOLD 2 SD
+http://rolexott.pro:80/live/56564322/56564323/27150.ts
+#EXTINF:-1 tvg-id="STAR GOLD THRILLS FHD" tvg-logo="https://i.imgur.com/azqtpYh.png",STAR GOLD THRILLS FHD
+http://rolexott.pro:80/live/56564322/56564323/27174.ts
+#EXTINF:-1 tvg-id="STAR MOVIE SELECT SD" tvg-logo="https://i.imgur.com/bnzDNCF.png",STAR MOVIE SELECT SD
+http://rolexott.pro:80/live/56564322/56564323/27159.ts
+#EXTINF:-1 tvg-id="STAR MOVIES SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/STAR_Movies_logo.svg/512px-STAR_Movies_logo.svg.png",STAR MOVIES SD
+http://rolexott.pro:80/live/56564322/56564323/27156.ts
+#EXTINF:-1 tvg-id="STAR UTSAV MOVIES" tvg-logo="https://www.lyngsat.com/logo/tv/ss/star_utsav.png",STAR UTSAV MOVIES
+http://rolexott.pro:80/live/56564322/56564323/27178.ts
+#EXTINF:-1 tvg-id="TS | B4U BHOJPURI" tvg-logo="https://www.lyngsat.com/logo/tv/bb/b4u-bhojpuri-in.png",TS | B4U BHOJPURI
+http://rolexott.pro:80/live/56564322/56564323/33766.ts
+#EXTINF:-1 tvg-id="TS | SONY MAX 1 FHD" tvg-logo="https://exchange4media.gumlet.io/news-photo/143021-SM.jpg",TS | SONY MAX 1 FHD
+http://rolexott.pro:80/live/56564322/56564323/272417.ts
+#EXTINF:-1 tvg-id="ZEE ACTION" tvg-logo="https://www.lyngsat.com/logo/tv/zz/zee-action-in.png",ZEE ACTION
+http://rolexott.pro:80/live/56564322/56564323/27176.ts
+#EXTINF:-1 tvg-id="ZEE ANMOL CINEMA" tvg-logo="https://www.lyngsat.com/logo/tv/zz/zee-anmol-cinema-in.png",ZEE ANMOL CINEMA
+http://rolexott.pro:80/live/56564322/56564323/27177.ts
+#EXTINF:-1 tvg-id="ZEE BOLLYWOOD SD" tvg-logo="https://i.imgur.com/0qQrV84.png",ZEE BOLLYWOOD SD
+http://rolexott.pro:80/live/56564322/56564323/27153.ts
+#EXTINF:-1 tvg-id="ZEE CINEMA SD" tvg-logo="https://i.imgur.com/uYjCv5p.png",ZEE CINEMA SD
+http://rolexott.pro:80/live/56564322/56564323/27141.ts
+#EXTINF:-1 tvg-id="&FLIX (HINDI)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSER00FnJAi_l3_yLNVUkjzNeeFhm0lZp-0tQ&s",&FLIX (HINDI)
+http://rolexott.pro:80/live/56564322/56564323/27166.ts
+#EXTINF:-1 tvg-id="&PICTURES SD" tvg-logo="https://www.lyngsat.com/logo/tv/aa/and_pictures_in.png",&PICTURES SD
+http://rolexott.pro:80/live/56564322/56564323/27144.ts
+#EXTINF:-1 tvg-id="&PRIVE SD" tvg-logo="https://www.lyngsat.com/logo/tv/aa/and-prive-hd-in.png",&PRIVE SD
+http://rolexott.pro:80/live/56564322/56564323/27169.ts
+#EXTINF:-1 tvg-id="Colors Cineplex HD" tvg-logo="https://www.lyngsat.com/logo/tv/cc/colors-cineplex-in.png",Colors Cineplex HD
+http://rolexott.pro:80/live/56564322/56564323/143548.ts
+#EXTINF:-1 tvg-id="Colors Cineplex HD" tvg-logo="https://www.lyngsat.com/logo/tv/cc/colors-cineplex-in.png",Colors Cineplex HD
+http://rolexott.pro:80/live/56564322/56564323/128034.ts
+#EXTINF:-1 tvg-id="COLORS CINEPLEX SUPERHITS HD" tvg-logo="https://www.lyngsat.com/logo/tv/cc/colors-cineplex-superhits-in.png",COLORS CINEPLEX SUPERHITS HD
+http://rolexott.pro:80/live/56564322/56564323/33748.ts
+#EXTINF:-1 tvg-id="FD | B4U KADAK" tvg-logo="https://www.lyngsat.com/logo/tv/bb/b4u-kadak-in.png",FD | B4U KADAK
+http://rolexott.pro:80/live/56564322/56564323/27179.ts
+#EXTINF:-1 tvg-id="FD | BHOJPURI CINEMA" tvg-logo="https://www.lyngsat.com/logo/tv/bb/bhojpuri_cinema_in.png",FD | BHOJPURI CINEMA
+http://rolexott.pro:80/live/56564322/56564323/33767.ts
+#EXTINF:-1 tvg-id="FD | CINEPLEX BOLLYWOOD" tvg-logo="https://www.lyngsat.com/logo/tv/cc/colors-cineplex-bollywood-in.png",FD | CINEPLEX BOLLYWOOD
+http://rolexott.pro:80/live/56564322/56564323/27180.ts
+#EXTINF:-1 tvg-id="FD | FILMACHI BHOJPURI" tvg-logo="https://www.lyngsat.com/logo/tv/ff/filamchi-bhojpuri-in.png",FD | FILMACHI BHOJPURI
+http://rolexott.pro:80/live/56564322/56564323/33769.ts
+#EXTINF:-1 tvg-id="FD | MANORANJAN MOVIES HD" tvg-logo="https://www.lyngsat.com/logo/tv/mm/manoranjan-movies-in.png",FD | MANORANJAN MOVIES HD
+http://rolexott.pro:80/live/56564322/56564323/27181.ts
+#EXTINF:-1 tvg-id="FD | MOVIE PLUS" tvg-logo="https://www.lyngsat.com/logo/tv/mm/movie_plus_jp.png",FD | MOVIE PLUS
+http://rolexott.pro:80/live/56564322/56564323/33771.ts
+#EXTINF:-1 tvg-id="IN D2H STAR MOVIES SELECT 4K" tvg-logo="https://i.imgur.com/bnzDNCF.png",IN D2H STAR MOVIES SELECT 4K
+http://rolexott.pro:80/live/56564322/56564323/27157.ts
