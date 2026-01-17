@@ -1,62 +1,61 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="Great! Movies Classic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/archive/c/cc/20240224103833%21Great%21_Movies_Classic_logo_2021.svg",Great! Movies Classic
+#EXTINF:-1 tvg-id="Great! Movies Classic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/GREAT%21_movies_classic_logo_2021.svg/1200px-GREAT%21_movies_classic_logo_2021.svg.png",Great! Movies Classic
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148398.ts
 
-#EXTINF:-1 tvg-id="Great! Movies Action +1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/archive/3/3d/20240107040322%21Great%21_Movies_Action_logo_2021.svg/1200px-GREAT%21_movies_action_logo_2021.svg.png",Great! Movies Action +1
+#EXTINF:-1 tvg-id="Great! Movies Action +1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/GREAT%21_movies_action_logo_2021.svg/1200px-GREAT%21_movies_action_logo_2021.svg.png",Great! Movies Action +1
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148410.ts
 
-#EXTINF:-1 tvg-id="Sky Arts FHD" tvg-logo="https://i.ibb.co.com/x8K7vvmd/Sky-arts-2020.webp",Sky Arts FHD
+#EXTINF:-1 tvg-id="Sky Arts" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Sky_Arts_-_Logo_2020.svg/1200px-Sky_Arts_-_Logo_2020.svg.png",Sky Arts
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34157.ts
 
-#EXTINF:-1 tvg-id="Sky Atlantic FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Sky_Atlantic_logo_2020.png/1200px-Sky_Atlantic_logo_2020.png",Sky Atlantic FHD
+#EXTINF:-1 tvg-id="Sky Atlantic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Sky_Atlantic_logo_2020.png/1200px-Sky_Atlantic_logo_2020.png",Sky Atlantic
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34158.ts
 
-#EXTINF:-1 tvg-id="Sky Cinema Premiere FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sky_Cinema_Premiere_-_Logo_2020.svg/1200px-Sky_Cinema_Premiere_-_Logo_2020.svg.png",Sky Cinema Premiere FHD
+#EXTINF:-1 tvg-id="Sky Cinema Premiere" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sky_Cinema_Premiere_-_Logo_2020.svg/1200px-Sky_Cinema_Premiere_-_Logo_2020.svg.png",Sky Cinema Premiere
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34161.ts
 
-#EXTINF:-1 tvg-id="Sky Cinema Hits FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sky_Cinema_Hits_-_Logo_2018.svg/1280px-Sky_Cinema_Hits_-_Logo_2018.svg.png",Sky Cinema Hits FHD
+#EXTINF:-1 tvg-id="Sky Cinema Hits" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sky_Cinema_Hits_-_Logo_2018.svg/1280px-Sky_Cinema_Hits_-_Logo_2018.svg.png",Sky Cinema Hits
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34162.ts
 
-#EXTINF:-1 tvg-id="Sky Cinema Thriller FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Sky_Cinema_Thriller_-_Logo_2017.svg/1200px-Sky_Cinema_Thriller_-_Logo_2017.svg.png",Sky Cinema Thriller FHD
+#EXTINF:-1 tvg-id="Sky Cinema Thriller" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Sky_Cinema_Thriller_-_Logo_2017.svg/1200px-Sky_Cinema_Thriller_-_Logo_2017.svg.png",Sky Cinema Thriller
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34163.ts
 
-#EXTINF:-1 tvg-id="Sky Cinema Drama FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Sky_Cinema_Drama_HD_-_Logo_2019.svg/1200px-Sky_Cinema_Drama_HD_-_Logo_2019.svg.png",Sky Cinema Drama FHD
+#EXTINF:-1 tvg-id="Sky Cinema Drama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Sky_Cinema_Drama_HD_-_Logo_2019.svg/1200px-Sky_Cinema_Drama_HD_-_Logo_2019.svg.png",Sky Cinema Drama
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34164.ts
 
-#EXTINF:-1 tvg-id="Sky Cinema Family FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sky_Cinema_Family_-_Logo_2018.svg/1200px-Sky_Cinema_Family_-_Logo_2018.svg.png",Sky Cinema Family FHD
+#EXTINF:-1 tvg-id="Sky Cinema Family" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sky_Cinema_Family_-_Logo_2018.svg/1200px-Sky_Cinema_Family_-_Logo_2018.svg.png",Sky Cinema Family
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34165.ts
 
-#EXTINF:-1 tvg-id="Sky Cinema Greats FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Sky_Cinema_Greats_-_Logo_2020.svg/1200px-Sky_Cinema_Greats_-_Logo_2020.svg.png",Sky Cinema Greats FHD
+#EXTINF:-1 tvg-id="Sky Cinema Greats" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Sky_Cinema_Greats_-_Logo_2020.svg/1200px-Sky_Cinema_Greats_-_Logo_2020.svg.png",Sky Cinema Greats
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34166.ts
 
-#EXTINF:-1 tvg-id="Sky Cinema Sci-Fi Horror FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sky_Cinema_Sci-Fi_Horror_-_Logo_2020.svg/1200px-Sky_Cinema_Sci-Fi_Horror_-_Logo_2020.svg.png",Sky Cinema Sci-Fi Horror FHD
+#EXTINF:-1 tvg-id="Sky Cinema Sci-Fi Horror" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sky_Cinema_Sci-Fi_Horror_-_Logo_2020.svg/1200px-Sky_Cinema_Sci-Fi_Horror_-_Logo_2020.svg.png",Sky Cinema Sci-Fi Horror
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34167.ts
 
-#EXTINF:-1 tvg-id="Sky Cinema Select FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sky_Cinema_Select_-_Logo_2018.svg/1200px-Sky_Cinema_Select_-_Logo_2018.svg.png",Sky Cinema Select FHD
+#EXTINF:-1 tvg-id="Sky Cinema Select" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sky_Cinema_Select_-_Logo_2018.svg/1200px-Sky_Cinema_Select_-_Logo_2018.svg.png",Sky Cinema Select
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34168.ts
 
-#EXTINF:-1 tvg-id="Sky Cinema Comedy FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Sky_Cinema_Comedy_-_Logo_2020.svg/1200px-Sky_Cinema_Comedy_-_Logo_2020.svg.png",Sky Cinema Comedy FHD
+#EXTINF:-1 tvg-id="Sky Cinema Comedy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Sky_Cinema_Comedy_-_Logo_2020.svg/1200px-Sky_Cinema_Comedy_-_Logo_2020.svg.png",Sky Cinema Comedy
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34169.ts
 
-#EXTINF:-1 tvg-id="Sky Cinema Action FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Sky_Cinema_Action_-_Logo_2019.svg/1280px-Sky_Cinema_Action_-_Logo_2019.svg.png",Sky Cinema Action FHD
+#EXTINF:-1 tvg-id="Sky Cinema Action" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Sky_Cinema_Action_-_Logo_2019.svg/1280px-Sky_Cinema_Action_-_Logo_2019.svg.png",Sky Cinema Action
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34170.ts
 
-#EXTINF:-1 tvg-id="Sky Comedy FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Sky_Comedy_-_Logo_2020.svg/1200px-Sky_Comedy_-_Logo_2020.svg.png",Sky Comedy FHD
+#EXTINF:-1 tvg-id="Sky Comedy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Sky_Comedy_-_Logo_2020.svg/1200px-Sky_Comedy_-_Logo_2020.svg.png",Sky Comedy
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148170.ts
 
-#EXTINF:-1 tvg-id="Sky Witness FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Sky_Witness_-_Logo_2020.svg/1200px-Sky_Witness_-_Logo_2020.svg.png",Sky Witness FHD
+#EXTINF:-1 tvg-id="Sky Witness" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Sky_Witness_-_Logo_2020.svg/1200px-Sky_Witness_-_Logo_2020.svg.png",Sky Witness
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148177.ts
 
-#EXTINF:-1 tvg-id="Sky Showcase FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Sky_Showcase_-_Logo_2021.svg/1200px-Sky_Showcase_-_Logo_2021.svg.png",Sky Showcase FHD
+#EXTINF:-1 tvg-id="Sky Showcase" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Sky_Showcase_-_Logo_2021.svg/1200px-Sky_Showcase_-_Logo_2021.svg.png",Sky Showcase
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148181.ts
 
-#EXTINF:-1 tvg-id="Film4 FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Film4_Logo.svg/1200px-Film4_Logo.svg.png",Film4 FHD
+#EXTINF:-1 tvg-id="Film4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Film4_Logo.svg/1200px-Film4_Logo.svg.png",Film4
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148201.ts
 
-#EXTINF:-1 tvg-id="Sky Crime FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sky_Crime_-_Logo_2019.svg/1200px-Sky_Crime_-_Logo_2019.svg.png",Sky Crime FHD
+#EXTINF:-1 tvg-id="Sky Crime" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sky_Crime_-_Logo_2019.svg/1200px-Sky_Crime_-_Logo_2019.svg.png",Sky Crime
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148267.ts
 
-#EXTINF:-1 tvg-id="NHK World Japan HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/NHK_World-Japan_logo.svg/1200px-NHK_World-Japan_logo.svg.png",NHK World Japan HD
+#EXTINF:-1 tvg-id="NHK World Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/NHK_World-Japan_logo.svg/1200px-NHK_World-Japan_logo.svg.png",NHK World Japan
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148289.ts
-
