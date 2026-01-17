@@ -1,12 +1,12 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="Great! Movies Classic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/GREAT%21_movies_classic_logo_2021.svg/1200px-GREAT%21_movies_classic_logo_2021.svg.png",Great! Movies Classic
+#EXTINF:-1 tvg-id="Great! Movies Classic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/archive/c/cc/20240224103833%21Great%21_Movies_Classic_logo_2021.svg",Great! Movies Classic
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148398.ts
 
-#EXTINF:-1 tvg-id="Great! Movies Action +1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/GREAT%21_movies_action_logo_2021.svg/1200px-GREAT%21_movies_action_logo_2021.svg.png",Great! Movies Action +1
+#EXTINF:-1 tvg-id="Great! Movies Action +1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/archive/3/3d/20240107040322%21Great%21_Movies_Action_logo_2021.svg/1200px-GREAT%21_movies_action_logo_2021.svg.png",Great! Movies Action +1
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148410.ts
 
-#EXTINF:-1 tvg-id="Sky Arts FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Sky_Arts_-_Logo_2020.svg/1200px-Sky_Arts_-_Logo_2020.svg.png",Sky Arts FHD
+#EXTINF:-1 tvg-id="Sky Arts FHD" tvg-logo="https://i.ibb.co.com/x8K7vvmd/Sky-arts-2020.webp",Sky Arts FHD
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34157.ts
 
 #EXTINF:-1 tvg-id="Sky Atlantic FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Sky_Atlantic_logo_2020.png/1200px-Sky_Atlantic_logo_2020.png",Sky Atlantic FHD
@@ -59,3 +59,4 @@ http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148267.ts
 
 #EXTINF:-1 tvg-id="NHK World Japan HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/NHK_World-Japan_logo.svg/1200px-NHK_World-Japan_logo.svg.png",NHK World Japan HD
 http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148289.ts
+
