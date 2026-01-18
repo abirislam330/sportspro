@@ -1,61 +1,89 @@
 #EXTM3U
-
-#EXTINF:-1 tvg-id="Great! Movies Classic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/GREAT%21_movies_classic_logo_2021.svg/1200px-GREAT%21_movies_classic_logo_2021.svg.png",Great! Movies Classic
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148398.ts
-
-#EXTINF:-1 tvg-id="Great! Movies Action +1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/GREAT%21_movies_action_logo_2021.svg/1200px-GREAT%21_movies_action_logo_2021.svg.png",Great! Movies Action +1
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148410.ts
-
-#EXTINF:-1 tvg-id="Sky Arts" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Sky_Arts_-_Logo_2020.svg/1200px-Sky_Arts_-_Logo_2020.svg.png",Sky Arts
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34157.ts
-
-#EXTINF:-1 tvg-id="Sky Atlantic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Sky_Atlantic_logo_2020.png/1200px-Sky_Atlantic_logo_2020.png",Sky Atlantic
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34158.ts
-
-#EXTINF:-1 tvg-id="Sky Cinema Premiere" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sky_Cinema_Premiere_-_Logo_2020.svg/1200px-Sky_Cinema_Premiere_-_Logo_2020.svg.png",Sky Cinema Premiere
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34161.ts
-
-#EXTINF:-1 tvg-id="Sky Cinema Hits" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sky_Cinema_Hits_-_Logo_2018.svg/1280px-Sky_Cinema_Hits_-_Logo_2018.svg.png",Sky Cinema Hits
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34162.ts
-
-#EXTINF:-1 tvg-id="Sky Cinema Thriller" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Sky_Cinema_Thriller_-_Logo_2017.svg/1200px-Sky_Cinema_Thriller_-_Logo_2017.svg.png",Sky Cinema Thriller
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34163.ts
-
-#EXTINF:-1 tvg-id="Sky Cinema Drama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Sky_Cinema_Drama_HD_-_Logo_2019.svg/1200px-Sky_Cinema_Drama_HD_-_Logo_2019.svg.png",Sky Cinema Drama
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34164.ts
-
-#EXTINF:-1 tvg-id="Sky Cinema Family" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sky_Cinema_Family_-_Logo_2018.svg/1200px-Sky_Cinema_Family_-_Logo_2018.svg.png",Sky Cinema Family
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34165.ts
-
-#EXTINF:-1 tvg-id="Sky Cinema Greats" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Sky_Cinema_Greats_-_Logo_2020.svg/1200px-Sky_Cinema_Greats_-_Logo_2020.svg.png",Sky Cinema Greats
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34166.ts
-
-#EXTINF:-1 tvg-id="Sky Cinema Sci-Fi Horror" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sky_Cinema_Sci-Fi_Horror_-_Logo_2020.svg/1200px-Sky_Cinema_Sci-Fi_Horror_-_Logo_2020.svg.png",Sky Cinema Sci-Fi Horror
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34167.ts
-
-#EXTINF:-1 tvg-id="Sky Cinema Select" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sky_Cinema_Select_-_Logo_2018.svg/1200px-Sky_Cinema_Select_-_Logo_2018.svg.png",Sky Cinema Select
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34168.ts
-
-#EXTINF:-1 tvg-id="Sky Cinema Comedy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Sky_Cinema_Comedy_-_Logo_2020.svg/1200px-Sky_Cinema_Comedy_-_Logo_2020.svg.png",Sky Cinema Comedy
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34169.ts
-
-#EXTINF:-1 tvg-id="Sky Cinema Action" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Sky_Cinema_Action_-_Logo_2019.svg/1280px-Sky_Cinema_Action_-_Logo_2019.svg.png",Sky Cinema Action
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/34170.ts
-
-#EXTINF:-1 tvg-id="Sky Comedy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Sky_Comedy_-_Logo_2020.svg/1200px-Sky_Comedy_-_Logo_2020.svg.png",Sky Comedy
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148170.ts
-
-#EXTINF:-1 tvg-id="Sky Witness" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Sky_Witness_-_Logo_2020.svg/1200px-Sky_Witness_-_Logo_2020.svg.png",Sky Witness
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148177.ts
-
-#EXTINF:-1 tvg-id="Sky Showcase" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Sky_Showcase_-_Logo_2021.svg/1200px-Sky_Showcase_-_Logo_2021.svg.png",Sky Showcase
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148181.ts
-
-#EXTINF:-1 tvg-id="Film4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Film4_Logo.svg/1200px-Film4_Logo.svg.png",Film4
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148201.ts
-
-#EXTINF:-1 tvg-id="Sky Crime" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Sky_Crime_-_Logo_2019.svg/1200px-Sky_Crime_-_Logo_2019.svg.png",Sky Crime
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148267.ts
-
-#EXTINF:-1 tvg-id="NHK World Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/NHK_World-Japan_logo.svg/1200px-NHK_World-Japan_logo.svg.png",NHK World Japan
-http://webhop.live/live/P4B9TB9xR8/humongous2tonight/148289.ts
+#EXTINF:-1 tvg-id="1169113" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SKY CINEMA.png",Sky cinema fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169113&.m3u8
+#EXTINF:-1 tvg-id="1169114" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/GERMANY/SKYCINEMAHD.png",Sky cinema premier fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169114&.m3u8
+#EXTINF:-1 tvg-id="1169115" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/SKYCINEMASELECT.png",Sky cinema select fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169115&.m3u8
+#EXTINF:-1 tvg-id="1169116" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/GERMANY/SKYCINEMAHD.png",Sky cinema action fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169116&.m3u8
+#EXTINF:-1 tvg-id="1169117" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SKYCINEMATHRILLER.png",Sky cinema thriller fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169117&.m3u8
+#EXTINF:-1 tvg-id="1169118" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/SKYCOMEDY.png",Sky cinema comedy fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169118&.m3u8
+#EXTINF:-1 tvg-id="1169119" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SKYCINEMAFAMILY.png",Sky cinema family fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169119&.m3u8
+#EXTINF:-1 tvg-id="1169120" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SKYCINEMADRAMA..png",Sky cinema drama fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169120&.m3u8
+#EXTINF:-1 tvg-id="1169121" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/GERMANY/SKYCINEMAHD.png",Sky cinema scifi fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169121&.m3u8
+#EXTINF:-1 tvg-id="1169122" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SKYCINEMAHITS.png",Sky cinema hits fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169122&.m3u8
+#EXTINF:-1 tvg-id="1169123" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/GREATTVLOGO.png",Sky cinema greats fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169123&.m3u8
+#EXTINF:-1 tvg-id="1169124" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SKYCINEMAANIMATION.png",Sky cinema animation fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169124&.m3u8
+#EXTINF:-1 tvg-id="1169125" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/SKYCOMEDY.png",Sky comedy fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169125&.m3u8
+#EXTINF:-1 tvg-id="1169126" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SKYATLANTIC.png",Sky atlantic fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169126&.m3u8
+#EXTINF:-1 tvg-id="1169127" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SKYSHOWCASE.png",Sky showcase fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169127&.m3u8
+#EXTINF:-1 tvg-id="1169128" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SKY WITNESS.png",Sky witness fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169128&.m3u8
+#EXTINF:-1 tvg-id="1169129" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SKYMAX.png",Sky max fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169129&.m3u8
+#EXTINF:-1 tvg-id="1170556" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SKY REPLAY.png",Sky replay
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1170556&.m3u8
+#EXTINF:-1 tvg-id="1169130" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/France/SYFY.png",Syfy fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169130&.m3u8
+#EXTINF:-1 tvg-id="1169131" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/TCM_logo.svg.png",Tcm fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169131&.m3u8
+#EXTINF:-1 tvg-id="1169132" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/FILM4.png",Film 4 fhd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169132&.m3u8
+#EXTINF:-1 tvg-id="823787" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/FILM4.png",Film 4 +1
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823787&.m3u8
+#EXTINF:-1 tvg-id="823786" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/5ACTIONTV.png",5 action
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823786&.m3u8
+#EXTINF:-1 tvg-id="823785" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/5SELECT.png",5 select
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823785&.m3u8
+#EXTINF:-1 tvg-id="823784" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/5USA.png",5 usa
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823784&.m3u8
+#EXTINF:-1 tvg-id="823783" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/5USA.png",5 usa +1
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823783&.m3u8
+#EXTINF:-1 tvg-id="823782" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/TALKINGPICTURESTV.png",Talking pictures
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823782&.m3u8
+#EXTINF:-1 tvg-id="823781" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/GREATTVLOGO.png",Great tv
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823781&.m3u8
+#EXTINF:-1 tvg-id="823780" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/GREATTVLOGO.png",Great tv +1
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823780&.m3u8
+#EXTINF:-1 tvg-id="823779" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/GREATTVLOGO.png",Great movies
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823779&.m3u8
+#EXTINF:-1 tvg-id="823778" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/GREATTVLOGO.png",Great movies +1
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823778&.m3u8
+#EXTINF:-1 tvg-id="823777" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/GREATTVLOGO.png",Great action
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823777&.m3u8
+#EXTINF:-1 tvg-id="823776" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/GREATTVLOGO.png",Great action +1
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823776&.m3u8
+#EXTINF:-1 tvg-id="823775" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/GREATTVLOGO.png",Great romance
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823775&.m3u8
+#EXTINF:-1 tvg-id="823774" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/GREATTVLOGO.png",Great romance +1
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823774&.m3u8
+#EXTINF:-1 tvg-id="823773" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/LEGENDTV.png",Legend
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823773&.m3u8
+#EXTINF:-1 tvg-id="823772" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/LEGENDTV.png",Legend xtra
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823772&.m3u8
+#EXTINF:-1 tvg-id="823771" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/LEGENDTV.png",Legend xtra +1
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823771&.m3u8
+#EXTINF:-1 tvg-id="823770" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/THATSTV.png",That's tv
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823770&.m3u8
+#EXTINF:-1 tvg-id="823769" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/THATSTV.png",That's tv 2
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823769&.m3u8
+#EXTINF:-1 tvg-id="823768" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/MOVIES24TV.png",Movies 24
+https://ranapk.online/RANAPK33x/TVD/play.php?id=823768&.m3u8
+#EXTINF:-1 tvg-id="1169109" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/MOVIES24TV.png",Movies 24 +1
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169109&.m3u8
+#EXTINF:-1 tvg-id="1169110" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SONY TV.png",Sony tv hd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169110&.m3u8
+#EXTINF:-1 tvg-id="1169111" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SONY MAX.png",Sony max hd
+https://ranapk.online/RANAPK33x/TVD/play.php?id=1169111&.m3u8
