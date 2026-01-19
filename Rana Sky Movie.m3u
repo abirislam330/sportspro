@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="1169113" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SKY CINEMA.png",Sky cinema fhd
-https://ranapk.online/RANAPK33x/TVD/play.php?id=1169113&.m3u8
 #EXTINF:-1 tvg-id="1169114" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/GERMANY/SKYCINEMAHD.png",Sky cinema premier fhd
 https://ranapk.online/RANAPK33x/TVD/play.php?id=1169114&.m3u8
 #EXTINF:-1 tvg-id="1169115" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/SKYCINEMASELECT.png",Sky cinema select fhd
@@ -86,4 +84,5 @@ https://ranapk.online/RANAPK33x/TVD/play.php?id=1169109&.m3u8
 #EXTINF:-1 tvg-id="1169110" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SONY TV.png",Sony tv hd
 https://ranapk.online/RANAPK33x/TVD/play.php?id=1169110&.m3u8
 #EXTINF:-1 tvg-id="1169111" group-title="UK SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SONY MAX.png",Sony max hd
+
 https://ranapk.online/RANAPK33x/TVD/play.php?id=1169111&.m3u8
