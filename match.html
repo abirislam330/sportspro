@@ -1,0 +1,993 @@
+<!-- START OF FILE MatchAdmin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsPro Match Manager</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- SweetAlert2 (Popups) -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- SortableJS (Drag & Drop) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+
+    <style>
+        :root {
+            --bg-dark: #0f111a;
+            --sidebar-bg: #151823;
+            --card-bg: #1e212d;
+            --primary-color: #00d2d3;
+            --text-color: #a0a6b5;
+            --sidebar-width: 260px;
+        }
+
+        body { background-color: var(--bg-dark); color: var(--text-color); font-family: 'Segoe UI', sans-serif; overflow-x: hidden; }
+
+        /* LOGIN SCREEN STYLES */
+        #login-section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle at center, #1e212d 0%, #0f111a 100%);
+            position: fixed; top: 0; left: 0; width: 100%; z-index: 2000;
+        }
+        .login-card {
+            width: 100%;
+            max-width: 400px;
+            background-color: var(--sidebar-bg);
+            padding: 40px;
+            border-radius: 15px;
+            border: 1px solid #2a2d3a;
+            box-shadow: 0 0 30px rgba(0,0,0,0.5);
+            margin: 20px;
+        }
+        .login-logo { font-size: 32px; font-weight: 800; color: white; text-align: center; margin-bottom: 30px; }
+        .login-logo span { color: var(--primary-color); font-style: italic; }
+
+        /* Main Panel (Hidden Initially) */
+        #admin-panel { display: none; min-height: 100vh; }
+
+        /* Sidebar Styles */
+        .sidebar {
+            width: var(--sidebar-width); height: 100vh; background-color: var(--sidebar-bg);
+            position: fixed; top: 0; left: 0; padding: 20px;
+            border-right: 1px solid #2a2d3a; z-index: 1000;
+            transition: transform 0.3s ease;
+            overflow-y: auto;
+        }
+        .brand-logo { font-size: 24px; font-weight: 800; color: white; margin-bottom: 40px; }
+        .brand-logo span { color: var(--primary-color); font-style: italic; }
+        .badge-role { font-size: 12px; background: rgba(0, 210, 211, 0.1); color: var(--primary-color); padding: 4px 8px; border-radius: 4px; vertical-align: middle; margin-left: 10px; }
+        
+        .nav-link {
+            color: var(--text-color); padding: 12px 15px; border-radius: 8px; margin-bottom: 5px;
+            transition: all 0.3s; display: flex; align-items: center; gap: 12px; text-decoration: none; font-weight: 500; cursor: pointer;
+        }
+        .nav-link:hover, .nav-link.active { background-color: rgba(0, 210, 211, 0.15); color: var(--primary-color); }
+        .nav-link i { width: 20px; text-align: center; }
+
+        .btn-logout {
+            margin-top: 30px; 
+            background: rgba(255, 255, 255, 0.05); 
+            color: #ff4757;
+            border: none;
+            width: 100%;
+        }
+        .btn-logout:hover { background: rgba(255, 71, 87, 0.1); color: #ff4757; }
+
+        /* Main Content */
+        .main-content { margin-left: var(--sidebar-width); padding: 30px; transition: margin 0.3s ease; padding-top: 60px; }
+
+        /* Mobile Responsive */
+        .mobile-nav-toggle { display: none; }
+
+        @media (max-width: 992px) {
+            .sidebar { transform: translateX(-100%); box-shadow: 5px 0 15px rgba(0,0,0,0.5); }
+            .sidebar.mobile-active { transform: translateX(0); }
+            .main-content { margin-left: 0; padding: 15px; padding-top: 70px; }
+            .mobile-nav-toggle { 
+                display: block !important; 
+                position: fixed; top: 15px; left: 15px; 
+                z-index: 1100; 
+                background: var(--card-bg); 
+                border: 1px solid #333; 
+                color: white;
+            }
+            .mobile-overlay {
+                display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+                background: rgba(0,0,0,0.5); z-index: 999;
+            }
+            .mobile-overlay.active { display: block; }
+        }
+
+        /* Cards */
+        .custom-card { 
+            background-color: var(--card-bg); 
+            border-radius: 12px; 
+            padding: 20px; 
+            border: 1px solid #2a2d3a; 
+            margin-bottom: 20px; 
+            height: 100%;
+        }
+        .stats-info h3 { font-size: 36px; color: white; margin: 0; font-weight: 700; }
+        .stats-label { color: var(--text-color); font-size: 14px; margin-top: 5px; }
+
+        /* Tables - Responsive */
+        .table-responsive { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+        .table-dark { --bs-table-bg: transparent; --bs-table-color: var(--text-color); --bs-table-border-color: #2a2d3a; min-width: 600px; }
+        .table-dark th { color: #fff; font-weight: 600; text-transform: uppercase; font-size: 12px; white-space: nowrap; }
+        .table-dark td { vertical-align: middle; white-space: nowrap; }
+        .draggable-row { cursor: grab; }
+        .draggable-row:active { cursor: grabbing; background-color: #2a2d3a; }
+        .team-logo-sm { width: 30px; height: 30px; object-fit: contain; background: #fff; border-radius: 50%; padding: 2px; }
+        .expired-row { opacity: 0.6; background: rgba(255,0,0,0.05); }
+
+        /* Forms */
+        .form-control, .form-select { background-color: #151823; border: 1px solid #333; color: white; }
+        .form-control:focus, .form-select:focus { background-color: #151823; border-color: var(--primary-color); color: white; box-shadow: none; }
+        
+        /* Tabs */
+        .nav-tabs { border-bottom: 1px solid #2a2d3a; margin-bottom: 20px; flex-wrap: nowrap; overflow-x: auto; white-space: nowrap; }
+        .nav-tabs .nav-link { color: var(--text-color); border: none; background: transparent; padding: 10px 20px; font-weight: 600; margin-right: 5px; cursor: pointer; }
+        .nav-tabs .nav-link:hover { color: white; background: rgba(255,255,255,0.05); border-radius: 5px 5px 0 0; }
+        .nav-tabs .nav-link.active { color: white; background-color: var(--primary-color); border-radius: 5px 5px 0 0; }
+        .tab-content { padding-top: 10px; }
+
+        /* Modal */
+        .modal-content { background-color: var(--card-bg); color: white; border: 1px solid #333; }
+        .modal-header, .modal-footer { border-color: #333; }
+        .btn-primary { background-color: var(--primary-color); border: none; color: #000; font-weight: 600; }
+        .btn-primary:hover { background-color: #01cece; }
+        .btn-close-white { filter: invert(1); }
+        
+        /* Small Labels */
+        .label-sm { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; display: block; }
+        
+        /* Placeholder for Empty State */
+        .empty-state-placeholder {
+            text-align: center; padding: 50px 20px; border: 2px dashed #2a2d3a; border-radius: 12px; color: #555;
+        }
+        .empty-state-placeholder i { font-size: 40px; margin-bottom: 15px; opacity: 0.5; }
+    </style>
+</head>
+<body>
+
+    <!-- 1. LOGIN SECTION -->
+    <div id="login-section">
+        <div class="login-card">
+            <div class="login-logo">Sports<span>Pro</span></div>
+            <p class="text-center text-secondary mb-4">Match Manager Login</p>
+            
+            <div class="mb-3">
+                <label class="form-label text-white">Username</label>
+                <input type="text" id="modUser" class="form-control" placeholder="Enter username">
+            </div>
+            <div class="mb-4">
+                <label class="form-label text-white">Password</label>
+                <input type="password" id="modPass" class="form-control" placeholder="••••••••">
+            </div>
+            <button class="btn btn-primary w-100 py-2 fw-bold" id="btnModLogin">
+                <span id="btnText">LOGIN</span>
+                <div id="btnSpinner" class="spinner-border spinner-border-sm text-black ms-2" style="display:none;"></div>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Overlay -->
+    <div class="mobile-overlay" id="mobileOverlay" onclick="toggleMobileSidebar()"></div>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="btn mobile-nav-toggle" onclick="toggleMobileSidebar()" style="display:none;" id="mobileToggleBtn">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <!-- MAIN PANEL (Initially Hidden) -->
+    <div id="admin-panel">
+        
+        <!-- Sidebar -->
+        <div class="sidebar d-flex flex-column" id="sidebar">
+            <div class="brand-logo">Sports<span>Pro</span> <span class="badge-role">MOD</span></div>
+            <div class="px-3 mb-3 text-secondary small">Logged in as: <span id="displayModName" class="text-white">User</span></div>
+            
+            <nav class="nav flex-column flex-grow-1">
+                <div class="nav-link active" onclick="showSection('dashboard', this)">
+                    <i class="fa-solid fa-chart-simple"></i> Match Dashboard
+                </div>
+
+                <div class="nav-link" onclick="showSection('matches', this)">
+                    <i class="fa-solid fa-futbol"></i> Manage Matches
+                </div>
+
+                <div class="nav-link" onclick="showSection('match-categories', this)">
+                    <i class="fa-solid fa-layer-group"></i> Sports Types
+                </div>
+
+                <div class="nav-link" onclick="showSection('teams', this)">
+                    <i class="fa-solid fa-users-line"></i> Teams & Leagues
+                </div>
+            </nav>
+            <button class="btn-logout nav-link justify-content-center" onclick="location.reload()">
+                <i class="fa-solid fa-sign-out-alt"></i> Logout
+            </button>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            
+            <!-- SECTION: DASHBOARD -->
+            <div id="section-dashboard">
+                <h4 class="text-white mb-4">Match Overview</h4>
+                
+                <div class="row g-4 mb-4">
+                    <!-- Live Matches Card -->
+                    <div class="col-12 col-md-4">
+                        <div class="custom-card d-flex justify-content-between align-items-center" style="border-left: 5px solid #ff4757;">
+                            <div>
+                                <h3 id="dashLiveMatches" class="text-white">0</h3>
+                                <p class="stats-label text-danger fw-bold"><i class="fa-solid fa-tower-broadcast me-2"></i>Live Now</p>
+                            </div>
+                            <div class="spinner-grow text-danger" style="width: 2rem; height: 2rem;" role="status"></div>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming Matches Card -->
+                    <div class="col-12 col-md-4">
+                        <div class="custom-card d-flex justify-content-between align-items-center" style="border-left: 5px solid #ffa502;">
+                            <div>
+                                <h3 id="dashUpcomingMatches" class="text-white">0</h3>
+                                <p class="stats-label text-warning fw-bold"><i class="fa-regular fa-clock me-2"></i>Upcoming</p>
+                            </div>
+                            <i class="fa-solid fa-calendar-days fs-1 text-secondary opacity-25"></i>
+                        </div>
+                    </div>
+
+                    <!-- Total Matches Card -->
+                    <div class="col-12 col-md-4">
+                        <div class="custom-card d-flex justify-content-between align-items-center" style="border-left: 5px solid #2ed573;">
+                            <div>
+                                <h3 id="dashTotalMatches" class="text-white">0</h3>
+                                <p class="stats-label text-success fw-bold"><i class="fa-solid fa-list-ul me-2"></i>Total Matches</p>
+                            </div>
+                            <i class="fa-solid fa-database fs-1 text-secondary opacity-25"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alert alert-dark border-secondary d-flex align-items-center" role="alert">
+                    <i class="fa-solid fa-circle-info text-info me-3 fs-4"></i>
+                    <div>
+                        <div class="fw-bold text-white">Welcome, Match Moderator!</div>
+                        <div class="small text-secondary">Manage Matches, Teams, and Leagues nicely on Mobile or Desktop.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION: MATCH MANAGER -->
+            <div id="section-matches" style="display: none;">
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-4 gap-2">
+                    <h4 class="text-white m-0">Live Match List</h4>
+                    <div class="d-flex gap-2">
+                        <button class="btn btn-outline-danger btn-sm" onclick="clearExpiredMatches()"><i class="fa-solid fa-trash-can"></i> Clear Expired</button>
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#matchModal" onclick="resetMatchForm()"><i class="fa-solid fa-plus"></i> Add Match</button>
+                    </div>
+                </div>
+                <div class="custom-card p-0 table-responsive">
+                    <table class="table table-dark table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th class="ps-4">Status</th>
+                                <th>Sport</th>
+                                <th>Series/League</th>
+                                <th>Teams</th>
+                                <th>Start Time</th>
+                                <th class="text-end pe-4">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="matchTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- SECTION: SPORTS TYPES -->
+            <div id="section-match-categories" style="display: none;">
+                <h4 class="text-white mb-4">Sports Types (Categories)</h4>
+                <div class="custom-card">
+                    <label class="form-label text-info">Add New Sport Type</label>
+                    <div class="input-group">
+                        <input type="text" id="newMatchCatName" class="form-control" placeholder="e.g. Cricket, Football">
+                        <button class="btn btn-primary" id="btnAddMatchCat">Add</button>
+                    </div>
+                </div>
+                <div class="custom-card p-0 mt-3 table-responsive">
+                    <table class="table table-dark table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th class="ps-4">Order</th>
+                                <th>Category Name</th>
+                                <th class="text-end pe-4">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="matchCatTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- SECTION: TEAMS & LEAGUES (Fixed Tabs) -->
+            <div id="section-teams" style="display: none;">
+                <h4 class="text-white mb-4">Manage Teams & Leagues</h4>
+                
+                <ul class="nav nav-tabs" id="teamLeagueTabs">
+                    <li class="nav-item">
+                        <button class="nav-link" id="btn-show-teams" onclick="switchTeamTab('teams')">Teams</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="btn-show-leagues" onclick="switchTeamTab('leagues')">Leagues</button>
+                    </li>
+                </ul>
+
+                <!-- Empty State (Shows initially) -->
+                <div id="teams-leagues-placeholder" class="empty-state-placeholder">
+                    <i class="fa-solid fa-arrow-up-right-dots"></i>
+                    <h5>Select an Option</h5>
+                    <p class="small">Click on <strong>Teams</strong> or <strong>Leagues</strong> above to manage data.</p>
+                </div>
+
+                <div id="teamLeagueContent" style="display:none;">
+                    
+                    <!-- Teams Panel -->
+                    <div id="panel-teams" style="display:none;">
+                        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-3 gap-2">
+                            <h5 class="text-white m-0">Team List</h5>
+                            <select id="teamListFilter" class="form-select w-auto" onchange="renderTeamTable()">
+                                <option value="All">All Leagues</option>
+                            </select>
+                        </div>
+                        <div class="custom-card mb-3">
+                            <label class="form-label text-info">Add New Team</label>
+                            <div class="row g-2">
+                                <div class="col-12 col-md-4">
+                                    <select id="newTeamLeague" class="form-select">
+                                        <option value="">Select League...</option>
+                                    </select>
+                                </div>
+                                <div class="col-6 col-md-3">
+                                    <input type="text" id="newTeamName" class="form-control" placeholder="Team Name">
+                                </div>
+                                <div class="col-6 col-md-3">
+                                    <input type="text" id="newTeamLogo" class="form-control" placeholder="Logo URL">
+                                </div>
+                                <div class="col-12 col-md-2">
+                                    <button class="btn btn-primary w-100" id="btnAddTeam">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="custom-card p-0 table-responsive">
+                            <table class="table table-dark table-hover mb-0">
+                                <thead>
+                                    <tr>
+                                        <th class="ps-4">Logo</th>
+                                        <th>Team Name</th>
+                                        <th>League ID</th>
+                                        <th class="text-end pe-4">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="teamTableBody"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <!-- Leagues Panel -->
+                    <div id="panel-leagues" style="display:none;">
+                        <h5 class="text-white mb-3">League List</h5>
+                        <div class="custom-card mb-3">
+                            <label class="form-label text-warning">Add New League</label>
+                            <div class="input-group">
+                                <input type="text" id="newLeagueName" class="form-control" placeholder="e.g. IPL 2025">
+                                <button class="btn btn-primary" id="btnAddLeague">Add League</button>
+                            </div>
+                        </div>
+                        <div class="custom-card p-0 table-responsive">
+                            <table class="table table-dark table-hover mb-0">
+                                <thead>
+                                    <tr>
+                                        <th class="ps-4">League Name</th>
+                                        <th class="text-end pe-4">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="leagueTableBody"></tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ================= MODAL: ADD/EDIT MATCH ================= -->
+    <div class="modal fade" id="matchModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="matchModalTitle">Add New Match</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="matchEditKey">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label text-white">Sport Type</label>
+                            <select class="form-select" id="mCategorySelect"><option value="">Select Category...</option></select>
+                        </div>
+                        
+                        <!-- LEAGUE SELECTION -->
+                        <div class="col-md-6">
+                            <label class="form-label text-warning">Series / League Name</label>
+                            <div class="input-group">
+                                <select class="form-select" id="mSeriesSelect" style="max-width: 40%;" onchange="autoFillLeague(this)">
+                                    <option value="">Select League...</option>
+                                </select>
+                                <input type="text" class="form-control" id="mSeriesManual" placeholder="Type League Name">
+                            </div>
+                            <span class="label-sm mt-1">Select League first to filter Teams</span>
+                        </div>
+                        
+                        <div class="col-12"><hr class="border-secondary my-1"></div>
+
+                        <!-- TEAM 1 -->
+                        <div class="col-md-6 border-end border-secondary pe-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <label class="form-label text-info mb-1">Team 1 Details</label>
+                                <img id="mT1Preview" src="" style="width:20px; height:20px; object-fit:contain;">
+                            </div>
+                            <select class="form-select form-select-sm mb-2 text-secondary border-secondary" id="mT1Select" onchange="autoFillTeam('1')" disabled>
+                                <option value="">Select League First...</option>
+                            </select>
+                            <input type="text" class="form-control mb-2" id="mT1Name" placeholder="Team 1 Name">
+                            <input type="text" class="form-control" id="mT1Logo" placeholder="Team 1 Logo URL">
+                        </div>
+
+                        <!-- TEAM 2 -->
+                        <div class="col-md-6 ps-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <label class="form-label text-info mb-1">Team 2 Details</label>
+                                <img id="mT2Preview" src="" style="width:20px; height:20px; object-fit:contain;">
+                            </div>
+                            <select class="form-select form-select-sm mb-2 text-secondary border-secondary" id="mT2Select" onchange="autoFillTeam('2')" disabled>
+                                <option value="">Select League First...</option>
+                            </select>
+                            <input type="text" class="form-control mb-2" id="mT2Name" placeholder="Team 2 Name">
+                            <input type="text" class="form-control" id="mT2Logo" placeholder="Team 2 Logo URL">
+                        </div>
+                        
+                        <div class="col-12"><hr class="border-secondary my-1"></div>
+
+                        <!-- TIMING -->
+                        <div class="col-12 col-md-6">
+                            <label class="form-label">Match Start Time</label>
+                            <input type="datetime-local" class="form-control" id="mStartTime">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label class="form-label">Expected Duration</label>
+                            <div class="input-group">
+                                <input type="number" class="form-control" id="mDurationHrs" placeholder="Hrs" min="0" value="3">
+                                <span class="input-group-text bg-dark text-white">hr</span>
+                                <input type="number" class="form-control" id="mDurationMins" placeholder="Min" min="0" max="59" value="0">
+                                <span class="input-group-text bg-dark text-white">min</span>
+                            </div>
+                        </div>
+
+                        <!-- STREAM LINKS -->
+                        <div class="col-md-12"><h6 class="text-white mb-2 mt-2">Stream Sources</h6></div>
+                        
+                        <div class="col-md-12 mb-2">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <label class="form-label text-danger m-0 label-sm">Server 1 (Main)</label>
+                                <select class="form-select form-select-sm w-auto bg-dark text-white border-secondary channel-quick-select" onchange="copyChannelLink('mLink', this.value)"><option value="">Select from Channel...</option></select>
+                            </div>
+                            <input type="text" class="form-control" id="mLink" placeholder="Paste m3u8/link here">
+                        </div>
+                        
+                        <div class="col-12 col-md-6">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <label class="form-label m-0 label-sm">Server 2</label>
+                                <select class="form-select form-select-sm w-auto bg-dark text-white border-secondary channel-quick-select" onchange="copyChannelLink('mLink2', this.value)"><option value="">Select...</option></select>
+                            </div>
+                            <input type="text" class="form-control" id="mLink2">
+                        </div>
+                        
+                        <div class="col-12 col-md-6">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <label class="form-label m-0 label-sm">Server 3</label>
+                                <select class="form-select form-select-sm w-auto bg-dark text-white border-secondary channel-quick-select" onchange="copyChannelLink('mLink3', this.value)"><option value="">Select...</option></select>
+                            </div>
+                            <input type="text" class="form-control" id="mLink3">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="saveMatchBtn">Save Match</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- UI Logic -->
+    <script>
+        // Sidebar Toggle Logic for Mobile
+        function toggleMobileSidebar() { 
+            const sb = document.getElementById('sidebar');
+            const overlay = document.getElementById('mobileOverlay');
+            sb.classList.toggle('mobile-active'); 
+            overlay.classList.toggle('active');
+        }
+
+        // Section Switcher
+        window.showSection = function(id, element) {
+            // Hide all main sections
+            ['dashboard', 'matches', 'match-categories', 'teams'].forEach(sec => {
+                const el = document.getElementById('section-' + sec); 
+                if(el) el.style.display = 'none';
+            });
+            // Show target section
+            const target = document.getElementById('section-' + id); 
+            if(target) target.style.display = 'block';
+            
+            // Active state for Sidebar Links
+            document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('active')); 
+            if(element) element.classList.add('active');
+            
+            // Hide Sidebar on Mobile after selection
+            document.getElementById('sidebar').classList.remove('mobile-active');
+            document.getElementById('mobileOverlay').classList.remove('active');
+
+            // === Special Logic for Teams Section (Empty State) ===
+            if(id === 'teams') {
+                // Reset to placeholder state
+                document.getElementById('teams-leagues-placeholder').style.display = 'block';
+                document.getElementById('teamLeagueContent').style.display = 'none';
+                document.getElementById('panel-teams').style.display = 'none';
+                document.getElementById('panel-leagues').style.display = 'none';
+                // Remove active class from tab buttons
+                document.getElementById('btn-show-teams').classList.remove('active');
+                document.getElementById('btn-show-leagues').classList.remove('active');
+            }
+        }
+
+        // Switcher for Teams vs Leagues Tabs
+        window.switchTeamTab = function(tabName) {
+            // Hide placeholder, show content container
+            document.getElementById('teams-leagues-placeholder').style.display = 'none';
+            document.getElementById('teamLeagueContent').style.display = 'block';
+
+            // Button Active States
+            document.getElementById('btn-show-teams').classList.remove('active');
+            document.getElementById('btn-show-leagues').classList.remove('active');
+            document.getElementById('btn-show-' + tabName).classList.add('active');
+
+            // Panel Visibility
+            document.getElementById('panel-teams').style.display = 'none';
+            document.getElementById('panel-leagues').style.display = 'none';
+            
+            document.getElementById('panel-' + tabName).style.display = 'block';
+        }
+    </script>
+
+    <!-- FIREBASE LOGIC -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+        import { getDatabase, ref, push, set, remove, onValue, update, get, child } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyDwcMREQuQiTDiJ8prnPkNzxV5eq2U097k",
+            authDomain: "sportspro-fb7b9.firebaseapp.com",
+            databaseURL: "https://sportspro-fb7b9-default-rtdb.firebaseio.com",
+            projectId: "sportspro-fb7b9",
+            storageBucket: "sportspro-fb7b9.firebasestorage.app",
+            messagingSenderId: "752307945154",
+            appId: "1:752307945154:web:82510628ecb2f97b96855b"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+        
+        // ================= LOGIN LOGIC =================
+        const btnLogin = document.getElementById('btnModLogin');
+        const loginSection = document.getElementById('login-section');
+        const adminPanel = document.getElementById('admin-panel');
+        const mobileToggle = document.getElementById('mobileToggleBtn');
+
+        btnLogin.addEventListener('click', () => {
+            const user = document.getElementById('modUser').value.trim();
+            const pass = document.getElementById('modPass').value.trim();
+            
+            if(!user || !pass) {
+                return Swal.fire('Error', 'Please enter username and password', 'error');
+            }
+
+            // Show Spinner
+            document.getElementById('btnText').style.display = 'none';
+            document.getElementById('btnSpinner').style.display = 'inline-block';
+            btnLogin.disabled = true;
+
+            // Check Creds against Database
+            get(child(ref(db), 'moderators')).then((snapshot) => {
+                let isAuthenticated = false;
+                let modName = '';
+
+                if (snapshot.exists()) {
+                    snapshot.forEach((child) => {
+                        const mod = child.val();
+                        if (mod.username === user && mod.password === pass) {
+                            isAuthenticated = true;
+                            modName = mod.name;
+                        }
+                    });
+                }
+
+                if (isAuthenticated) {
+                    // Success: Hide Login, Show Panel
+                    loginSection.style.display = 'none';
+                    adminPanel.style.display = 'block';
+                    mobileToggle.style.display = 'block';
+                    document.getElementById('displayModName').innerText = modName || user;
+                    
+                    // Clear fields
+                    document.getElementById('modUser').value = '';
+                    document.getElementById('modPass').value = '';
+                    
+                    Swal.fire({
+                        toast: true, position: 'top-end', icon: 'success', 
+                        title: 'Welcome Back!', showConfirmButton: false, timer: 1500
+                    });
+
+                } else {
+                    Swal.fire('Login Failed', 'Invalid Username or Password', 'error');
+                }
+
+                // Reset Button
+                document.getElementById('btnText').style.display = 'inline-block';
+                document.getElementById('btnSpinner').style.display = 'none';
+                btnLogin.disabled = false;
+
+            }).catch((error) => {
+                Swal.fire('Error', error.message, 'error');
+                document.getElementById('btnText').style.display = 'inline-block';
+                document.getElementById('btnSpinner').style.display = 'none';
+                btnLogin.disabled = false;
+            });
+        });
+
+        
+        const matchModal = new bootstrap.Modal(document.getElementById('matchModal'));
+
+        // ================= CHANNEL LIST LOADER =================
+        onValue(ref(db, 'channels'), (snapshot) => {
+            const channelSelects = document.querySelectorAll('.channel-quick-select'); 
+            channelSelects.forEach(sel => sel.innerHTML = '<option value="">Select from Channel...</option>');
+            if(snapshot.exists()) {
+                const arr = [];
+                snapshot.forEach((child) => { arr.push({ name: child.val().name, link: child.val().link, sortOrder: child.val().sortOrder || 9999 }); });
+                arr.sort((a, b) => a.sortOrder - b.sortOrder);
+                arr.forEach(c => {
+                    const opt = `<option value="${c.link}">${c.name}</option>`;
+                    channelSelects.forEach(sel => sel.innerHTML += opt);
+                });
+            }
+        });
+
+        // ================= MATCH CATEGORIES =================
+        new Sortable(document.getElementById('matchCatTableBody'), { animation: 150, handle: '.fa-bars', onEnd: function (evt) { document.querySelectorAll('#matchCatTableBody tr').forEach((row, index) => { update(ref(db, 'match_categories/' + row.getAttribute('data-id')), { sortOrder: index }); }); } });
+        document.getElementById('btnAddMatchCat').addEventListener('click', () => { const catName = document.getElementById('newMatchCatName').value; if(catName) { push(ref(db, 'match_categories'), { name: catName, sortOrder: 9999 }).then(() => { Swal.fire('Success', 'Category Added!', 'success'); document.getElementById('newMatchCatName').value = ''; }); } });
+        window.editMatchCat = async function(key, oldName) { const { value: newName } = await Swal.fire({ title: 'Rename Category', input: 'text', inputValue: oldName, showCancelButton: true }); if (newName && newName !== oldName) { update(ref(db, 'match_categories/' + key), { name: newName }); } };
+        window.deleteMatchCat = function(key) { Swal.fire({ title: 'Delete?', icon: 'warning', showCancelButton: true, confirmButtonColor: '#d33' }).then((res) => { if (res.isConfirmed) remove(ref(db, 'match_categories/' + key)); }); }
+        onValue(ref(db, 'match_categories'), (snapshot) => { 
+            const tbody = document.getElementById('matchCatTableBody'); const modalDropdown = document.getElementById('mCategorySelect');
+            tbody.innerHTML = ''; modalDropdown.innerHTML = '<option value="">Select Category...</option>';
+            if(snapshot.exists()) { 
+                const catArr = []; snapshot.forEach((child) => { catArr.push({key: child.key, ...child.val()}); }); 
+                catArr.sort((a, b) => (a.sortOrder || 0) - (b.sortOrder || 0)); 
+                catArr.forEach(v => { 
+                    tbody.innerHTML += `<tr data-id="${v.key}" class="draggable-row"><td class="ps-4 text-secondary"><i class="fa-solid fa-bars" style="cursor: grab;"></i></td><td>${v.name}</td><td class="text-end pe-4"><button class="btn btn-sm btn-outline-warning me-2" onclick="window.editMatchCat('${v.key}', '${v.name}')"><i class="fa-solid fa-pen"></i></button><button class="btn btn-sm btn-outline-danger" onclick="window.deleteMatchCat('${v.key}')"><i class="fa-solid fa-trash"></i></button></td></tr>`; 
+                    modalDropdown.innerHTML += `<option value="${v.name}">${v.name}</option>`; 
+                }); 
+            } 
+        });
+
+        // ================= LEAGUES & TEAMS =================
+        window.allLeagues = []; 
+        document.getElementById('btnAddLeague').addEventListener('click', () => { const name = document.getElementById('newLeagueName').value; if(name) { push(ref(db, 'leagues'), { name: name }).then(() => { document.getElementById('newLeagueName').value = ''; Swal.fire('Success', 'League Added', 'success'); }); } });
+        onValue(ref(db, 'leagues'), (snapshot) => {
+            const table = document.getElementById('leagueTableBody'); const matchSelect = document.getElementById('mSeriesSelect'); const teamLeagueSelect = document.getElementById('newTeamLeague'); const teamListFilter = document.getElementById('teamListFilter'); 
+            table.innerHTML = ''; 
+            matchSelect.innerHTML = '<option value="">Select League...</option>'; 
+            teamLeagueSelect.innerHTML = '<option value="">Select League...</option>'; 
+            teamListFilter.innerHTML = '<option value="All">All Leagues</option>';
+            window.allLeagues = [];
+
+            if(snapshot.exists()) {
+                snapshot.forEach(child => {
+                    const l = child.val(); const key = child.key;
+                    window.allLeagues.push({ key: key, name: l.name });
+                    table.innerHTML += `<tr><td class="ps-4">${l.name}</td><td class="text-end pe-4"><button class="btn btn-sm btn-outline-warning me-2" onclick="window.editLeague('${key}', '${l.name}')"><i class="fa-solid fa-pen"></i></button><button class="btn btn-sm btn-outline-danger" onclick="window.deleteLeague('${key}')"><i class="fa-solid fa-trash"></i></button></td></tr>`;
+                    // For Match Modal
+                    matchSelect.innerHTML += `<option value="${l.name}">${l.name}</option>`; 
+                    // For Team Manager
+                    teamLeagueSelect.innerHTML += `<option value="${key}">${l.name}</option>`; 
+                    teamListFilter.innerHTML += `<option value="${key}">${l.name}</option>`; 
+                });
+            }
+        });
+        window.editLeague = async (key, oldName) => { const { value: newName } = await Swal.fire({ title: 'Edit League Name', input: 'text', inputValue: oldName, showCancelButton: true }); if (newName && newName !== oldName) { update(ref(db, 'leagues/' + key), { name: newName }); } };
+        window.deleteLeague = (key) => remove(ref(db, 'leagues/' + key));
+
+        window.allTeams = [];
+        document.getElementById('btnAddTeam').addEventListener('click', () => { const leagueId = document.getElementById('newTeamLeague').value; const name = document.getElementById('newTeamName').value; const logo = document.getElementById('newTeamLogo').value; if(name && leagueId) { push(ref(db, 'teams'), { name: name, logo: logo, leagueId: leagueId }).then(() => { document.getElementById('newTeamName').value = ''; document.getElementById('newTeamLogo').value = ''; Swal.fire('Success', 'Team Added', 'success'); }); } else { Swal.fire('Error', 'Please select a League and enter Team Name', 'error'); } });
+        onValue(ref(db, 'teams'), (snapshot) => { 
+            window.allTeams = []; 
+            if(snapshot.exists()) { snapshot.forEach(child => { window.allTeams.push({key: child.key, ...child.val()}); }); } 
+            window.renderTeamTable(); 
+        });
+
+        window.renderTeamTable = () => {
+            const table = document.getElementById('teamTableBody'); const filterValue = document.getElementById('teamListFilter').value; table.innerHTML = '';
+            let teamsToShow = window.allTeams; if (filterValue !== "All") { teamsToShow = window.allTeams.filter(t => t.leagueId === filterValue); }
+            if (teamsToShow.length === 0) { table.innerHTML = `<tr><td colspan="4" class="text-center text-secondary">No teams found for selected league.</td></tr>`; return; }
+            teamsToShow.forEach(t => { table.innerHTML += `<tr><td class="ps-4"><img src="${t.logo}" class="team-logo-sm" onerror="this.src='https://via.placeholder.com/30'"></td><td>${t.name}</td><td class="text-secondary small">${t.leagueId || '-'}</td><td class="text-end pe-4"><button class="btn btn-sm btn-outline-danger" onclick="window.deleteTeam('${t.key}')"><i class="fa-solid fa-trash"></i></button></td></tr>`; });
+        };
+        window.deleteTeam = (key) => remove(ref(db, 'teams/' + key));
+
+        // ================= MATCH MANAGER =================
+        
+        // Filter Teams based on Selected League Name
+        window.filterTeamsByLeague = (leagueName) => {
+            const s1 = document.getElementById('mT1Select');
+            const s2 = document.getElementById('mT2Select');
+            
+            s1.innerHTML = '<option value="">Select Team...</option>';
+            s2.innerHTML = '<option value="">Select Team...</option>';
+            s1.disabled = true;
+            s2.disabled = true;
+
+            if(!leagueName) return;
+
+            // Find League ID from Name
+            const league = window.allLeagues.find(l => l.name === leagueName);
+            if(!league) return; // Manual entry or not found
+
+            const leagueId = league.key;
+            const leagueTeams = window.allTeams.filter(t => t.leagueId === leagueId);
+            
+            if(leagueTeams.length > 0) {
+                s1.disabled = false;
+                s2.disabled = false;
+                // Sort teams by name
+                leagueTeams.sort((a,b) => a.name.localeCompare(b.name));
+                
+                leagueTeams.forEach(t => {
+                    const opt = `<option value="${t.key}">${t.name}</option>`;
+                    s1.innerHTML += opt;
+                    s2.innerHTML += opt;
+                });
+            } else {
+                s1.innerHTML = '<option value="">No teams in this league</option>';
+                s2.innerHTML = '<option value="">No teams in this league</option>';
+            }
+        };
+
+        // Auto-Fill Logic
+        window.autoFillLeague = (selectEl) => {
+            const val = selectEl.value;
+            if(val) {
+                document.getElementById('mSeriesManual').value = val;
+                window.filterTeamsByLeague(val); // Trigger team filter
+            }
+        };
+        window.autoFillTeam = (num) => {
+            const selectEl = document.getElementById(`mT${num}Select`);
+            const teamKey = selectEl.value;
+            if(!teamKey) return;
+            
+            const team = window.allTeams.find(t => t.key === teamKey);
+            if(team) {
+                document.getElementById(`mT${num}Name`).value = team.name;
+                document.getElementById(`mT${num}Logo`).value = team.logo;
+                document.getElementById(`mT${num}Preview`).src = team.logo;
+            }
+        };
+
+        window.allMatches = [];
+        onValue(ref(db, 'matches'), (snapshot) => {
+            const tbody = document.getElementById('matchTableBody'); 
+            const dashTotal = document.getElementById('dashTotalMatches'); 
+            const dashLive = document.getElementById('dashLiveMatches');
+            const dashUpcoming = document.getElementById('dashUpcomingMatches');
+            
+            window.allMatches = []; 
+            let liveCount = 0; 
+            let upcomingCount = 0;
+            const now = Date.now();
+
+            if (snapshot.exists()) {
+                snapshot.forEach(child => { window.allMatches.push({ key: child.key, ...child.val() }); });
+                window.allMatches.sort((a, b) => (Number(b.startTime) || 0) - (Number(a.startTime) || 0));
+                
+                let tableHtml = '';
+                window.allMatches.forEach(m => {
+                    const start = Number(m.startTime) || 0; const end = Number(m.endTime) || (start + (3 * 3600000));
+                    let statusBadge = ''; let rowClass = '';
+                    
+                    if (now > end) { 
+                        statusBadge = '<span class="badge bg-danger">EXPIRED</span>'; 
+                        rowClass = 'expired-row'; 
+                    } 
+                    else if (now >= start && now <= end) { 
+                        statusBadge = '<span class="badge bg-success">LIVE NOW</span>'; 
+                        liveCount++; 
+                    } 
+                    else { 
+                        statusBadge = '<span class="badge bg-warning text-dark">UPCOMING</span>'; 
+                        upcomingCount++;
+                    }
+
+                    const catBadge = m.match_category ? `<span class="badge bg-info text-dark">${m.match_category}</span>` : '<span class="badge bg-secondary">Gen</span>';
+                    tableHtml += `<tr class="${rowClass}"><td class="ps-4">${statusBadge}</td><td>${catBadge}</td><td class="text-white">${m.series || 'N/A'}</td><td><div class="d-flex align-items-center gap-2 text-white"><img src="${m.team1_logo}" class="team-logo-sm" onerror="this.src='https://via.placeholder.com/30'"> ${m.team1_name} <span class="text-secondary mx-1">VS</span> <img src="${m.team2_logo}" class="team-logo-sm" onerror="this.src='https://via.placeholder.com/30'"> ${m.team2_name}</div></td><td class="text-secondary">${start ? new Date(start).toLocaleString() : 'N/A'}</td><td class="text-end pe-4"><button class="btn btn-sm btn-outline-info me-2" onclick="window.editMatch('${m.key}')"><i class="fa-solid fa-pen"></i></button><button class="btn btn-sm btn-outline-danger" onclick="window.deleteMatch('${m.key}')"><i class="fa-solid fa-trash"></i></button></td></tr>`;
+                });
+                tbody.innerHTML = tableHtml;
+            } else { 
+                tbody.innerHTML = '<tr><td colspan="6" class="text-center text-secondary py-3">No matches found</td></tr>'; 
+            }
+            
+            dashTotal.innerText = window.allMatches.length; 
+            dashLive.innerText = liveCount;
+            dashUpcoming.innerText = upcomingCount;
+        });
+
+        window.copyChannelLink = (inputId, url) => { if(url) document.getElementById(inputId).value = url; };
+        
+        document.getElementById('saveMatchBtn').addEventListener('click', () => {
+            const key = document.getElementById('matchEditKey').value; 
+            
+            const seriesName = document.getElementById('mSeriesManual').value;
+            const matchCategory = document.getElementById('mCategorySelect').value; 
+            
+            const t1 = document.getElementById('mT1Name').value; 
+            const l1 = document.getElementById('mT1Logo').value; 
+            const t2 = document.getElementById('mT2Name').value; 
+            const l2 = document.getElementById('mT2Logo').value; 
+            
+            const link = document.getElementById('mLink').value; 
+            const link2 = document.getElementById('mLink2').value; 
+            const link3 = document.getElementById('mLink3').value; 
+            
+            const startStr = document.getElementById('mStartTime').value; 
+            const durHrs = parseInt(document.getElementById('mDurationHrs').value) || 0; 
+            const durMins = parseInt(document.getElementById('mDurationMins').value) || 0;
+            
+            if (!t1 || !t2 || !startStr || !link || !seriesName) { 
+                return Swal.fire('Error', 'League Name, Teams, Start Time and Main Link are required!', 'error'); 
+            }
+            if (durHrs === 0 && durMins === 0) { 
+                return Swal.fire('Error', 'Please set a duration greater than 0.', 'error'); 
+            }
+
+            const startTime = new Date(startStr).getTime(); 
+            const endTime = startTime + (durHrs * 3600000) + (durMins * 60000);
+            
+            const data = { 
+                name: `${t1} vs ${t2}`, 
+                series: seriesName, 
+                match_category: matchCategory, 
+                team1_name: t1, team1_logo: l1, 
+                team2_name: t2, team2_logo: l2, 
+                link: link, link2: link2, link3: link3, 
+                startTime: startTime, endTime: endTime 
+            };
+
+            if (key) { 
+                update(ref(db, 'matches/' + key), data).then(() => { Swal.fire('Updated', 'Match updated successfully', 'success'); matchModal.hide(); }); 
+            } else { 
+                push(ref(db, 'matches'), data).then(() => { Swal.fire('Added', 'Match added successfully', 'success'); matchModal.hide(); }); 
+            }
+        });
+
+        window.editMatch = (key) => {
+            const m = window.allMatches.find(x => x.key === key); if (!m) return;
+            document.getElementById('matchEditKey').value = key; 
+            
+            document.getElementById('mCategorySelect').value = m.match_category || ""; 
+            
+            document.getElementById('mSeriesManual').value = m.series || "";
+            document.getElementById('mSeriesSelect').value = ""; 
+            
+            const leagueExists = window.allLeagues.find(l => l.name === m.series);
+            if(leagueExists) {
+                document.getElementById('mSeriesSelect').value = m.series;
+                window.filterTeamsByLeague(m.series); 
+            } else {
+                 document.getElementById('mT1Select').innerHTML = '<option value="">Select League First...</option>';
+                 document.getElementById('mT2Select').innerHTML = '<option value="">Select League First...</option>';
+                 document.getElementById('mT1Select').disabled = true;
+                 document.getElementById('mT2Select').disabled = true;
+            }
+
+            document.getElementById('mT1Name').value = m.team1_name; 
+            document.getElementById('mT1Logo').value = m.team1_logo; 
+            document.getElementById('mT1Preview').src = m.team1_logo; 
+            if(leagueExists) {
+                 const t1Obj = window.allTeams.find(t => t.name === m.team1_name && t.leagueId === leagueExists.key);
+                 if(t1Obj) document.getElementById('mT1Select').value = t1Obj.key;
+            }
+
+            document.getElementById('mT2Name').value = m.team2_name; 
+            document.getElementById('mT2Logo').value = m.team2_logo; 
+            document.getElementById('mT2Preview').src = m.team2_logo;
+            if(leagueExists) {
+                 const t2Obj = window.allTeams.find(t => t.name === m.team2_name && t.leagueId === leagueExists.key);
+                 if(t2Obj) document.getElementById('mT2Select').value = t2Obj.key;
+            }
+
+            document.getElementById('mLink').value = m.link; 
+            document.getElementById('mLink2').value = m.link2 || ""; 
+            document.getElementById('mLink3').value = m.link3 || "";
+            
+            if(m.startTime) { 
+                const d = new Date(m.startTime); 
+                document.getElementById('mStartTime').value = new Date(d.getTime() - (d.getTimezoneOffset() * 60000)).toISOString().slice(0, 16); 
+            }
+            if(m.endTime && m.startTime) { 
+                const diffMs = m.endTime - m.startTime; 
+                document.getElementById('mDurationHrs').value = Math.floor(diffMs / 3600000); 
+                document.getElementById('mDurationMins').value = Math.round((diffMs % 3600000) / 60000); 
+            } else { 
+                document.getElementById('mDurationHrs').value = 3; 
+                document.getElementById('mDurationMins').value = 0; 
+            }
+            document.getElementById('matchModalTitle').innerText = "Edit Match"; matchModal.show();
+        };
+
+        window.deleteMatch = (key) => { Swal.fire({ title: 'Delete Match?', icon: 'warning', showCancelButton: true, confirmButtonColor: '#d33' }).then((res) => { if (res.isConfirmed) remove(ref(db, 'matches/' + key)); }); };
+        
+        window.clearExpiredMatches = () => { const now = Date.now(); let toDelete = []; window.allMatches.forEach(m => { if (m.endTime < now) toDelete.push(m.key); }); if (toDelete.length === 0) return Swal.fire('Info', 'No expired matches found.', 'info'); Swal.fire({ title: `Delete ${toDelete.length} Expired Matches?`, icon: 'warning', showCancelButton: true, confirmButtonColor: '#d33', confirmButtonText: 'Yes, Delete All' }).then((res) => { if (res.isConfirmed) { toDelete.forEach(k => remove(ref(db, 'matches/' + k))); Swal.fire('Deleted!', 'Expired matches removed.', 'success'); } }); };
+        
+        window.resetMatchForm = () => { 
+            document.getElementById('matchEditKey').value = ""; 
+            document.getElementById('mCategorySelect').value = ""; 
+            document.getElementById('mSeriesManual').value = "";
+            document.getElementById('mSeriesSelect').value = "";
+            
+            document.getElementById('mT1Select').innerHTML = '<option value="">Select League First...</option>'; 
+            document.getElementById('mT2Select').innerHTML = '<option value="">Select League First...</option>'; 
+            document.getElementById('mT1Select').disabled = true;
+            document.getElementById('mT2Select').disabled = true;
+
+            document.getElementById('mT1Name').value = ""; 
+            document.getElementById('mT1Logo').value = ""; 
+            document.getElementById('mT2Name').value = ""; 
+            document.getElementById('mT2Logo').value = ""; 
+            document.getElementById('mT1Preview').src = ""; 
+            document.getElementById('mT2Preview').src = ""; 
+            
+            document.getElementById('mLink').value = ""; 
+            document.getElementById('mLink2').value = ""; 
+            document.getElementById('mLink3').value = ""; 
+            document.getElementById('mStartTime').value = ""; 
+            document.getElementById('mDurationHrs').value = "3"; 
+            document.getElementById('mDurationMins').value = "0"; 
+            document.getElementById('matchModalTitle').innerText = "Add New Match"; 
+            document.querySelectorAll('.channel-quick-select').forEach(el => el.value = ""); 
+        };
+
+    </script>
+</body>
+</html>
