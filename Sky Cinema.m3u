@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="1169107" group-title="SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/SKY CINEMA.png",☰☰☰☰ Sky Cinema HD ☰☰☰☰
-https://ranapk.online/RANAPK33x/TVDx/play.php?id=1169107&.m3u8
 #EXTINF:-1 tvg-id="823805" group-title="SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/GERMANY/SKYCINEMAHD.png",Sky Cinema Premier HD
 https://ranapk.online/RANAPK33x/TVDx/play.php?id=823805&.m3u8
 #EXTINF:-1 tvg-id="823804" group-title="SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/2/SKYCINEMASELECT.png",Sky Cinema Select HD
@@ -126,4 +124,5 @@ https://ranapk.online/RANAPK33x/TVDx/play.php?id=1169130&.m3u8
 #EXTINF:-1 tvg-id="1169131" group-title="SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/SPAIN/TCM_logo.svg.png",TCM FHD
 https://ranapk.online/RANAPK33x/TVDx/play.php?id=1169131&.m3u8
 #EXTINF:-1 tvg-id="1169132" group-title="SKY CINEMA" tvg-logo="http://picon.tivi-ott.net:25461/picon/UK/FILM4.png",Film 4 FHD
+
 https://ranapk.online/RANAPK33x/TVDx/play.php?id=1169132&.m3u8
