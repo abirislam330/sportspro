@@ -1,0 +1,38 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="122" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/BTV.jpg?raw=true" group-title="Bangla🇧🇩",BTV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
+#EXTINF:1 tvg-name="BTV News" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/BTV_News.jpg?raw=true" group-title="Bangla🇧🇩",BTV News
+https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/SG/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8
+#EXTINF:1 tvg-name="BTV CTG" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/BTV_CTG.jpg?raw=true" group-title="Bangla🇧🇩",BTV CTG
+https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/SG/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8
+#EXTINF:1 tvg-name="SongSod TV" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Sangsod.jpg?raw=true" group-title="Bangla🇧🇩",SongSod TV
+https://www.btvlive.gov.bd/live/undefined/SG/9ee3b4f9-fd0a-47c5-a135-2575c5691613/index.m3u8
+#EXTINF:-1 tvg-id="97" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Jamuna%20Tv.jpg?raw=true" group-title="Bangla🇧🇩",Jamuna TV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8
+#EXTINF:-1 tvg-id="98" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/SomoyTv.jpg?raw=true" group-title="Bangla🇧🇩",Somoy Tv
+https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
+#EXTINF:-1 tvg-id="94" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Channel%2024.png?raw=true" group-title="Bangla🇧🇩",Channel 24 HD
+https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8
+#EXTINF:-1 tvg-id="96" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Independent.jpg?raw=true" group-title="Bangla🇧🇩",Independent TV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8
+#EXTINF:-1 tvg-id="102" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Ekattor.jpg?raw=true" group-title="Bangla🇧🇩",Ekattor HD
+https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8
+#EXTINF:-1 tvg-id="93" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/ATN%20NEWS.jpg?raw=true" group-title="Bangla🇧🇩",ATN News
+https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8
+#EXTINF:-1 tvg-id="134" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Deepto%20Tv.jpg?raw=true" group-title="Bangla🇧🇩",Deepto TV HD
+https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8
+#EXTINF:-1 tvg-id="100" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Banglavision.jpg?raw=true" group-title="Bangla🇧🇩",Bangla Vision
+https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8
+#EXTINF:-1 tvg-id="99" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/NTV.jpg?raw=true" group-title="Bangla🇧🇩",NTV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
+#EXTINF:-1 tvg-id="131" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/ATN%20Bangla.jpg?raw=true" group-title="Bangla🇧🇩",ATN Bangla
+https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
+#EXTINF:-1 tvg-id="132" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Channeli.jpg?raw=true" group-title="Bangla🇧🇩",Channel I HD
+https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Al%20Jazeera.jpg?raw=true" group-title="Bangla🇧🇩",Al Jazeera
+https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8
+#EXTINF:1 tvg-name="SRKTV BANGLA" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/SrkTV.jpg?raw=true" group-title="Bangla🇧🇩",SRKTV Bangla
+https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
+#EXTINF:1 tvg-name="Nagorik TV" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Nagorik.jpg?raw=true" group-title="Bangla🇧🇩",Nagorik TV
+http://116.204.149.16/nagorik/index.m3u8
