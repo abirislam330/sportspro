@@ -1,93 +1,185 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="01 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",01 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="01 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",01 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/263421.ts
-#EXTINF:-1 tvg-id="02 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",02 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="02 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",02 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268020.ts
-#EXTINF:-1 tvg-id="03 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",03 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="03 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",03 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268021.ts
-#EXTINF:-1 tvg-id="04 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",04 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="04 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",04 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268022.ts
-#EXTINF:-1 tvg-id="05 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",05 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="05 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",05 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268023.ts
-#EXTINF:-1 tvg-id="06 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",06 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="06 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",06 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268024.ts
-#EXTINF:-1 tvg-id="07 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",07 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="07 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",07 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268025.ts
-#EXTINF:-1 tvg-id="08 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",08 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="08 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",08 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268026.ts
-#EXTINF:-1 tvg-id="09 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",09 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="09 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",09 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268027.ts
-#EXTINF:-1 tvg-id="10 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",10 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="10 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",10 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268028.ts
-#EXTINF:-1 tvg-id="11 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",11 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="11 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",11 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268029.ts
-#EXTINF:-1 tvg-id="12 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",12 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="12 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",12 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268030.ts
-#EXTINF:-1 tvg-id="13 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",13 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="13 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",13 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268031.ts
-#EXTINF:-1 tvg-id="14 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",14 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="14 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",14 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268032.ts
-#EXTINF:-1 tvg-id="15 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",15 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="15 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",15 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268033.ts
-#EXTINF:-1 tvg-id="16 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",16 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="16 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",16 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268034.ts
-#EXTINF:-1 tvg-id="17 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",17 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="17 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",17 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268035.ts
-#EXTINF:-1 tvg-id="18 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",18 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="18 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",18 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268036.ts
-#EXTINF:-1 tvg-id="19 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",19 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="19 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",19 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268037.ts
-#EXTINF:-1 tvg-id="20 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",20 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="20 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",20 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268038.ts
-#EXTINF:-1 tvg-id="21 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",21 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="21 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",21 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268039.ts
-#EXTINF:-1 tvg-id="22 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",22 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="22 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",22 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268040.ts
-#EXTINF:-1 tvg-id="23 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",23 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="23 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",23 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268041.ts
-#EXTINF:-1 tvg-id="24 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",24 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="24 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",24 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268042.ts
-#EXTINF:-1 tvg-id="25 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",25 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="25 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",25 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268043.ts
-#EXTINF:-1 tvg-id="26 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",26 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="26 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",26 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268044.ts
-#EXTINF:-1 tvg-id="27 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",27 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="27 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",27 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268045.ts
-#EXTINF:-1 tvg-id="28 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",28 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="28 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",28 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268046.ts
-#EXTINF:-1 tvg-id="29 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",29 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="29 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",29 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268047.ts
-#EXTINF:-1 tvg-id="30 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",30 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="30 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",30 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268048.ts
-#EXTINF:-1 tvg-id="31 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",31 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="31 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",31 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268049.ts
-#EXTINF:-1 tvg-id="32 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",32 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="32 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",32 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268050.ts
-#EXTINF:-1 tvg-id="33 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",33 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="33 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",33 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268051.ts
-#EXTINF:-1 tvg-id="34 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",34 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="34 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",34 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268052.ts
-#EXTINF:-1 tvg-id="35 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",35 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="35 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",35 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268053.ts
-#EXTINF:-1 tvg-id="36 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",36 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="36 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",36 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268054.ts
-#EXTINF:-1 tvg-id="37 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",37 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="37 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",37 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268055.ts
-#EXTINF:-1 tvg-id="38 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",38 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="38 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",38 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268056.ts
-#EXTINF:-1 tvg-id="39 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",39 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="39 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",39 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/268057.ts
-#EXTINF:-1 tvg-id="40 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",40 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="40 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",40 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/362990.ts
-#EXTINF:-1 tvg-id="41 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",41 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="41 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",41 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/362991.ts
-#EXTINF:-1 tvg-id="42 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",42 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="42 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",42 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/362992.ts
-#EXTINF:-1 tvg-id="43 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",43 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="43 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",43 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/362993.ts
-#EXTINF:-1 tvg-id="44 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",44 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="44 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",44 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/362994.ts
-#EXTINF:-1 tvg-id="45 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",45 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="45 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",45 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/362995.ts
-#EXTINF:-1 tvg-id="46 HOLLYWOOD HINDI DUBBED 24/7" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",46 HOLLYWOOD HINDI DUBBED 24/7
+
+#EXTINF:-1 tvg-id="46 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",46 Hollywood Hindi Dubbed
+#EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/362996.ts
