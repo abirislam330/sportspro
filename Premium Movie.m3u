@@ -180,7 +180,8 @@ http://xtv.ooo:8080/live/7173322/4380070/362994.ts
 #EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/362995.ts
 
-#EXTINF:-1 tvg-id="46 Hollywood Hindi Dubbed 55" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",46 Hollywood Hindi Dubbed
+#EXTINF:-1 tvg-id="46 Hollywood Hindi Dubbed" tvg-logo="http://logo.opplextv.com/logo/HOLLYWOODHINDIDUBBED247.png",46 Hollywood Hindi Dubbed
 #EXTVLCOPT:http-user-agent=vlc
 http://xtv.ooo:8080/live/7173322/4380070/362996.ts
+
 
