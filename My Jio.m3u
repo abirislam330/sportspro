@@ -665,7 +665,7 @@ https://m3uplay.com/leo/dlive.mpd?id=1329JP&format=.mpd
 #EXTVLCOPT:http-referrer=https://m3uplay.com/leo/watch.php?id=1359JP
 https://m3uplay.com/leo/dlive.mpd?id=1359JP&format=.mpd
 
-#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_SD.png" group-title="JioTV", Colors Bangla SD | JioTV
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bengali_SD.png" group-title="JioTV", Colors Bangla SD | JioTV
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=4b4ea22699965dcfa9883cb7994d7202:9107a849f44403873bffedac6a6cabdc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
@@ -898,7 +898,7 @@ https://m3uplay.com/leo/dlive.mpd?id=370JP&format=.mpd
 
 #EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Suvarna.png" group-title="JioTV", Star Suvarna | JioTV
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=fc771d871cbf45818a5b3eb3652d75387:added6a0df4d0eab8758b0ed9f54ecf2
+#KODIPROP:inputstream.adaptive.license_key=fc71d871cbf45818a5b3eb3652d75387:added6a0df4d0eab8758b0ed9f54ecf2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://m3uplay.com/leo/watch.php?id=1117JP
 https://m3uplay.com/leo/dlive.mpd?id=1117JP&format=.mpd
@@ -1560,3 +1560,31 @@ https://m3uplay.com/leo/dlive.mpd?id=578JP&format=.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://m3uplay.com/leo/watch.php?id=579JP
 https://m3uplay.com/leo/dlive.mpd?id=579JP&format=.mpd
+
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_bharati.png" group-title="JioTV", DD bharati | JioTV
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=b9dc813a100051c98b7f5a96ef02936c:c335eda4a2a5159eab4e8090b50a2c40
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://m3uplay.com/leo/watch.php?id=580JP
+https://m3uplay.com/leo/dlive.mpd?id=580JP&format=.mpd
+
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Kisan.png" group-title="JioTV", DD Kisan | JioTV
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=9e04dc3c464a57ecbbab3b4db57d37f3:e9e0f26c6861df97b2528e07bb74d550
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://m3uplay.com/leo/watch.php?id=583JP
+https://m3uplay.com/leo/dlive.mpd?id=583JP&format=.mpd
+
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/CVR_Health.png" group-title="JioTV", CVR Health | JioTV
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=849d6b062b645abea937ec7f2b6b1686:1f65503420b88d11a16d4a4eacd95f0f
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://m3uplay.com/leo/watch.php?id=774JP
+https://m3uplay.com/leo/dlive.mpd?id=774JP&format=.mpd
+
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Desi_Channel.png" group-title="JioTV", Desi Channel | JioTV
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=97e3ed23983352ee81c9cce3d4483fe4:6cfb5fe680005b15a3d4ed3938d2f2df
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://m3uplay.com/leo/watch.php?id=906JP
+https://m3uplay.com/leo/dlive.mpd?id=906JP&format=.mpd
