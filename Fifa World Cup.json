@@ -1,0 +1,22 @@
+{
+  "HeaderInfo": {
+    "PlaylistName": "Fifa World Cup Playlist",
+    "LastUpdate": "12:32 AM 02-07-2026",
+    "Telegram": "https://t.me/sportsproapk",
+    "Owner": "Admin-Abir Islam"
+  },
+  
+  "Matches": [
+    {
+      "match_id": "B0H6NGQQXH",
+      "title": "FIFA WORLD CUP",
+      "synopsis": "Fifa World Cup Belgium VS Senegal",
+      "status": "LIVE",
+      "time": "2:00 AM BDT",
+      "cover_image": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/8TijEZ8B23Y4IFgzUs8F/posters/6eacf966-d1ab-45e7-a117-778a75d3f6de.png",
+      "match_url": "https://www.amazon.com/gp/video/detail/B0H6NGQQXH/ref=atv_3p_amz_c_Gu0OSt_2_1?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u",
+      "is_free": false,
+      "stream_url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-2/sst/index.m3u8?edge-cache-token=Expires=1782930750~Starts=1782930690~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=HUA8SVykEj66JeXV87B68D8Fcg_V0kjFWHb15LaUge9d1hV8U8oMq9m5Faii2ChInjrMigAAPd8Ka6ZwdZxmDQ",
+      "drm_key": ""
+    },
+    
